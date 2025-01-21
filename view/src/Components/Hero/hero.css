@@ -1,0 +1,26 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://preview.colorlib.com/theme/banker/images/hero_2.jpg.webp");
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        h1 {
+            text-align: center;
+        }
+
+        span {
+            text-align: center;
+            width: 350px;
+        }
+    }
+}
